@@ -4,7 +4,7 @@
 
 # Code and data
 
-Simulation notebooks accompanying **“Collective dynamics, information reinforcement and autonomy loss in human–AI networks.”**
+## Simulation notebooks accompanying **“Collective dynamics, information reinforcement and autonomy loss in human–AI networks.”**
 
 ## Files
 
