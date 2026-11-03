@@ -1,3 +1,7 @@
+# File S1. Source code and sample network for reproducing the analysis.
+
+## This archive contains Python and R notebooks implementing the simulation models and graph construction procedures used in the study. A sample network file is included to demonstrate execution. The notebooks can be run in standard environments such as Google Colab and include all necessary steps to obtain the presented results.
+
 # Code and data
 
 Simulation notebooks accompanying **“Collective dynamics, information reinforcement and autonomy loss in human–AI networks.”**
@@ -35,7 +39,6 @@ write.table(igraph::as_edgelist(g), "N40_y2.4.edgelist",
 The example uses `n = 40`, `gamma = 2.4`, and `k_min = 3`. It has no fixed seed and writes the same filename as the preserved simulation network; use the preserved file for reproducing the figures.
 
 ## Run
-
 1. Open a Python notebook in Google Colab or Jupyter.
 2. Place `N40_y2.4.edgelist` in its working directory, keeping this filename unchanged.
 3. Run the cells in order, starting with imports and graph loading.
